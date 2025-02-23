@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "php_string.h": "c",
+        "php_http.h": "c",
+        "zend_compile.h": "c"
+    }
+}

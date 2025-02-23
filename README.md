@@ -7,6 +7,23 @@
     </a>
 </div>
 
+# Flashpoint Archive Modifications
+
+This copy of PHP is for building our own PHP extension, Flashpoint.
+
+Windows users see: https://github.com/php/php-sdk-binary-tools
+
+Windows Example usage:
+
+SDK:
+`.\phpsdk-starter.bat -c vc15 -a x86 -s 14.16`
+*Move into php-src folder*
+`buildconf --force`
+`configure --disable-all --enable-cli --enable-flashpoint=shared`
+`nmake`
+
+See `Release_TS/php_flashpoint.dll` output
+
 # The PHP Interpreter
 
 PHP is a popular general-purpose scripting language that is especially suited to
