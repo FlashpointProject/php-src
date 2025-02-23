@@ -16,11 +16,11 @@ Windows users see: https://github.com/php/php-sdk-binary-tools
 Windows Example usage:
 
 SDK:
-`.\phpsdk-starter.bat -c vc15 -a x86 -s 14.16`
-*Move into php-src folder*
-`buildconf --force`
-`configure --disable-all --enable-cli --enable-flashpoint=shared`
-`nmake`
+- `.\phpsdk-starter.bat -c vc15 -a x86 -s 14.16`
+- *Move into php-src folder*
+- `buildconf --force`
+- `configure --disable-all --enable-cli --enable-flashpoint=shared`
+- `nmake`
 
 See `Release_TS/php_flashpoint.dll` output
 
